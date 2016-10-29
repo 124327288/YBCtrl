@@ -9,7 +9,7 @@ public: \
 	virtual void onWndMsg( ybctrl::YBCtrlWndMsg* pYBCtrlWndMsg );
 
 #define YBCTRL_WNDMSGMAP_BEGIN( theClass, baseClass ) \
-void theClass::onWndMsg( ybctrl::YBCtrlWndMsg* pYBCtrlWndMsg ) { \
+void theClass::onWndMsg( YBCtrlWndMsg* pYBCtrlWndMsg ) { \
 	typedef theClass ThisClass; \
 	typedef baseClass TheBaseClass; \
 	if ( !pYBCtrlWndMsg ) {\
