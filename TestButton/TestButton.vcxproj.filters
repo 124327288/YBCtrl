@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="TestButton.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\Debug\Image\YBFSDLerBk.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBTopMostBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBTestBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBIMNotifyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBPage1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBPage2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBPage3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBPage4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITDlgFileUploadRaw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITDlgFileUpload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITMsgBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITPopupPB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBTransitCenterDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBDownLoadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBCheckBox4UD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBStepDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadStep1Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadStep2Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadStep3Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadStep4Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadStep5Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBListBox4UDFolder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBListBox4DDFolder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncPack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemFuncPack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBTestChildModalDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBCornerNotifyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBCornerNotifyCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBProgressBar4DL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBWSAWMenuBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUploadFileMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFSMenuHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBWebSiteMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBAppWndMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITAddAppDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITSetDlg4Resolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBITSetDlg4ScreenSaver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFileTPDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFileTPDlgMgr4IT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBButton4CNDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFSDownLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFSRcMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBFSRcMenuItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBWebEditDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBInstallDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBView4InstallFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBPopupMessageBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBTransparentWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBUpLoadWarmTipDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBCtrlMsgBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBListBox4IMEDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBDetectPCEnvironmentDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBListBox4PCDE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBElawDropDownMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YBElawDropDownMenuItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64Coder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpAndHttpDownload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureCtrlDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorEnvCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorControlBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorDlg2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBTopMostBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBTestBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBIMNotifyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBPage1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBPage2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBPage3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBPage4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITDlgFileUploadRaw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITDlgFileUpload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITMsgBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITPopupPB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBTransitCenterDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBDownLoadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBCheckBox4UD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBStepDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadStep1Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadStep2Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadStep3Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadStep4Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadStep5Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBListBox4UDFolder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBListBox4DDFolder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBTestChildModalDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBCornerNotifyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBCornerNotifyCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBProgressBar4DL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBWSAWMenuBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUploadFileMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFSMenuHeader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBWebSiteMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBAppWndMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITAddAppDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITSetDlg4Resolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBITSetDlg4ScreenSaver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFileTPDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFileTPDlgMgr4IT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBButton4CNDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFSDownLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFSRcMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBFSRcMenuItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBWebEditDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBInstallDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBView4InstallFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBPopupMessageBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBTransparentWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBUpLoadWarmTipDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBCtrlMsgBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBListBox4IMEDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBDetectPCEnvironmentDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBListBox4PCDE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBElawDropDownMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YBElawDropDownMenuItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64Coder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpAndHttpDownload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureCtrlDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorHeader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorControlBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorDlg2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestButton.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
