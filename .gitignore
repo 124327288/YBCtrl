@@ -1,0 +1,12 @@
+*.exe
+*.ilk
+*.pdb
+*.dll
+*.exp
+*.ilk
+*.lib
+*.opensdf
+*.sdf
+*.obj
+TestButton/Win32/
+YBCtrl/Win32
