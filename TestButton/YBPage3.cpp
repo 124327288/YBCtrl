@@ -20,6 +20,7 @@
 #include "treectrl/YBNodeRoot.h"
 #include "treectrl/YBNodeLeaf.h"
 #include "treectrl/YBTCViewContent.h"
+#include "NDListView4PayElcBills.h"
 
 #define YBCTRLID_BTN_OPENDOMODALDLG (280)
 #define YBCTRLID_LISTBOX4UD (281)
@@ -33,7 +34,7 @@ USING_NAMESPACE_YBCTRL
 
 YBPage3::YBPage3()
 : m_listbox4UD( new YBView4UDFolderInner(), 25, 26 )
-, m_listbox4DD( new YBView4DDFolderInner(), 25, 26 )
+, m_listview4Test(new NDView4PayElcBillInner(), 25, 26)
 , m_listbox4YBWSAWMenu( new YBView4WSAWMenuInner( 300, 26 ), 25, 26 )
 , m_listbox4YBWSAWMenu2( new YBView4WSAWMenuInner( 300, 26 ), 25, 26 )
 , m_listbox4YBULFileMenu( new YBView4ULFileMenuInner( 300, 26 ), 25, 26 )
@@ -42,7 +43,7 @@ YBPage3::YBPage3()
 {
 	loadImage();
 	_init();
-	_init2();
+	//_init2();
 	_init3();
 	_init4();
 	_init4FileMenu();
@@ -266,12 +267,12 @@ void YBPage3::_init() {
 }
 
 void YBPage3::_init2(){
-	ybctrl::YBViewInner* pViewInner = m_listbox4DD.getViewInner();
+	ybctrl::YBViewInner* pViewInner = m_listview4Test.getViewInner();
 	ybctrl::YBViewContentBase* pViewContent = pViewInner->getViewContentObj();
-	YBView4DDFolderContent* pView4DDFolderContent = ( YBView4DDFolderContent* )pViewContent;
+	NDView4PayElcBillContent* pView4DDFolderContent = (NDView4PayElcBillContent*)pViewContent;
 
-	ybctrl::YBScrollBar* pYBScrollBarH = m_listbox4DD.getScrollBarH();
-	ybctrl::YBScrollBar* pYBScrollBarV = m_listbox4DD.getScrollBarV();
+	ybctrl::YBScrollBar* pYBScrollBarH = m_listview4Test.getScrollBarH();
+	ybctrl::YBScrollBar* pYBScrollBarV = m_listview4Test.getScrollBarV();
 
 	pYBScrollBarV->setImageIdBk( m_uImageIdScrBarBkV );
 	pYBScrollBarV->setImageIdStartArrow( YBScrollBar::EARROW_STATUS_NORMAL, m_uImageIdScrTArrPreNor );
@@ -615,9 +616,14 @@ HWND YBPage3::create( int x, int y, int nWidth, int nHeight, HWND hWndParent ){
 		if ( m_listbox4UD.getHWND() ) {
 			::ShowWindow( m_listbox4UD.getHWND(), SW_NORMAL );
 		}
-		m_listbox4DD.create( 550, 20, 200, 400, hWnd, YBCTRLID_LISTBOX4DD, NULL );
-		if( m_listbox4DD.getHWND() ){
-			::ShowWindow( m_listbox4DD.getHWND(), SW_NORMAL );
+		m_listview4Test.create(520, 400, 300, 400, hWnd, YBCTRLID_LISTBOX4DD, NULL);
+		if (m_listview4Test.getHWND()){
+			::ShowWindow(m_listview4Test.getHWND(), SW_NORMAL);
+			NDView4PayElcBillContent* pContentObj = (NDView4PayElcBillContent*)m_listview4Test.getViewInner()->getViewContentObj();
+			if (pContentObj) {
+				pContentObj->setWidth(300);
+			}
+			m_listview4Test.updateStatus();
 		}
 		//////////////////////////////////////////////////////////////////////////
 		m_listbox4YBWSAWMenu.create( 760, 38, 300, 300, hWnd, 300, NULL );

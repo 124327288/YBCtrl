@@ -534,6 +534,7 @@
     <ClInclude Include="ImageEditorHeader.h" />
     <ClInclude Include="ImageEditorProperty.h" />
     <ClInclude Include="MemFuncPack.h" />
+    <ClInclude Include="NDListView4PayElcBills.h" />
     <ClInclude Include="PictureCtrl.h" />
     <ClInclude Include="PictureCtrlDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -603,6 +604,7 @@
     <ClCompile Include="ImageEditorDlg2.cpp" />
     <ClCompile Include="ImageEditorHeader.cpp" />
     <ClCompile Include="ImageEditorProperty.cpp" />
+    <ClCompile Include="NDListView4PayElcBills.cpp" />
     <ClCompile Include="PictureCtrl.cpp" />
     <ClCompile Include="PictureCtrlDlg.cpp" />
     <ClCompile Include="stdafx.cpp">

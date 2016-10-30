@@ -64,7 +64,7 @@ public:
 	ybctrl::YBButton m_btnMenuDlg;
 	YBTransitCenterDlg m_transitcenterDlg;
 	ybctrl::YBScrollWnd m_listbox4UD;
-	ybctrl::YBScrollWnd m_listbox4DD;
+	ybctrl::YBScrollWnd m_listview4Test;
 	ybctrl::YBCtrlMenu m_testMenu;
 	ybctrl::YBScrollWnd m_listbox4YBWSAWMenu;
 	ybctrl::YBScrollWnd m_listbox4YBWSAWMenu2;
